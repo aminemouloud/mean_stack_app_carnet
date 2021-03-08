@@ -1,0 +1,47 @@
+<form (submit)="onAddCarnet()" class="form-horizontal" >
+
+  <h2>Add New Carnet</h2>
+
+
+  <div class="form-group">
+    <label class="col-lg-2 control-label">Name</label>
+    <div class="col-lg-10">
+      <input type="text" class="form-control" [(ngModel)]="nom" name="nom" >
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label class="col-lg-2 control-label">Age</label>
+    <div class="col-lg-10">
+      <input type="text" class="form-control" [(ngModel)]="age" name="age" >
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label class="col-lg-2 control-label">Famille</label>
+    <div class="col-lg-10">
+      <input type="text" class="form-control" [(ngModel)]="famille" name="famille" >
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label class="col-lg-2 control-label">Race</label>
+    <div class="col-lg-10">
+      <input type="text" class="form-control" [(ngModel)]="race" name="race" >
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label class="col-lg-2 control-label">Origine</label>
+    <div class="col-lg-10">
+      <input type="text" class="form-control" [(ngModel)]="origine" name="origine" >
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="pull-right">
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </div>
+
+</form>
